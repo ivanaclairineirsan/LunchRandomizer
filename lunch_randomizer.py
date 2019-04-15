@@ -137,7 +137,7 @@ def get_new_score():
         print('No Menu data found.')
     else:
         for row in score_values:
-            score[(row[1])] = int(row[2])
+            score[(row[1])] = float(row[2])
 
     if not voting_values:
         print('No History data found')
